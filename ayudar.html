@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre acciones sencillas para ayudar al medioambiente.">
+  <title>Cómo ayudar | Planeta Vivo</title><link rel="stylesheet" href="css/styles.css"><script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header"><a class="brand" href="index.html">🌎 Planeta Vivo</a><nav aria-label="Navegación principal"><ul class="nav-list"><li><a href="index.html">Inicio</a></li><li><a href="causa.html">Sobre la causa</a></li><li><a aria-current="page" href="ayudar.html">Cómo ayudar</a></li><li><a href="recursos.html">Recursos</a></li></ul></nav></header>
+  <main id="contenido" class="section page-content">
+    <p class="eyebrow">Pasa a la acción</p><h1>¿Cómo puedes ayudar?</h1>
+    <div class="card-grid">
+      <article class="info-card"><h2>En casa</h2><p>Ahorra agua y electricidad, evita productos desechables y separa los residuos.</p></article>
+      <article class="info-card"><h2>En tu comunidad</h2><p>Participa en limpiezas de playas, siembras de árboles y actividades educativas.</p></article>
+      <article class="info-card"><h2>En la escuela</h2><p>Propón puntos de reciclaje y comparte información sobre hábitos sostenibles.</p></article>
+    </div>
+    <section class="form-section">
+      <h2>Únete a nuestra iniciativa</h2><p>Completa el formulario para dejar un compromiso ambiental. Este ejemplo valida los datos en tu navegador; no envía información a un servidor.</p>
+      <form id="contactForm" novalidate>
+        <div class="form-field"><label for="name">Nombre</label><input id="name" name="name" type="text" autocomplete="name" required minlength="2"></div>
+        <div class="form-field"><label for="email">Correo electrónico</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="form-field"><label for="action">¿Qué acción te comprometes a realizar?</label><select id="action" name="action" required><option value="">Selecciona una opción</option><option value="reciclar">Reciclar y reutilizar</option><option value="agua">Ahorrar agua</option><option value="limpieza">Participar en una limpieza comunitaria</option><option value="educar">Educar a otras personas</option></select></div>
+        <div class="form-field"><label for="message">Comentario (opcional)</label><textarea id="message" name="message" rows="4"></textarea></div>
+        <button class="button" type="submit">Enviar compromiso</button>
+        <p id="formMessage" class="status-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><p>© <span class="year"></span> Planeta Vivo. Proyecto educativo de advocacy.</p></footer>
+</body></html>

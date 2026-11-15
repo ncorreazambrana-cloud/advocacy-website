@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Únete a nuestra campaña para proteger el medioambiente.">
+  <title>Planeta Vivo | Inicio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Planeta Vivo, página de inicio">🌎 Planeta Vivo</a>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-list">
+        <li><a aria-current="page" href="index.html">Inicio</a></li>
+        <li><a href="causa.html">Sobre la causa</a></li>
+        <li><a href="ayudar.html">Cómo ayudar</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Pequeñas acciones, grandes cambios</p>
+        <h1>¡Cuidar el planeta es responsabilidad de todos!</h1>
+        <p>Un futuro más limpio comienza con las decisiones que tomamos hoy. Reduce, reutiliza, recicla y sé parte del cambio.</p>
+        <a class="button" href="ayudar.html">Quiero ayudar</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Nuestra misión</p>
+        <h2>Un planeta saludable para las próximas generaciones</h2>
+        <p>Promovemos la educación ambiental y hábitos responsables para proteger los recursos naturales.</p>
+      </div>
+      <div class="card-grid">
+        <article class="info-card"><span class="card-icon" aria-hidden="true">🌳</span><h3>Protege los árboles</h3><p>Los árboles ayudan a limpiar el aire y ofrecen refugio a muchas especies.</p></article>
+        <article class="info-card"><span class="card-icon" aria-hidden="true">💧</span><h3>Cuida el agua</h3><p>Evita desperdiciarla y mantén los ríos, playas y quebradas libres de basura.</p></article>
+        <article class="info-card"><span class="card-icon" aria-hidden="true">♻️</span><h3>Reduce los residuos</h3><p>Reutiliza objetos y separa correctamente los materiales reciclables.</p></article>
+      </div>
+    </section>
+
+    <section class="callout">
+      <h2>Tu apoyo cuenta</h2>
+      <p>Cada hábito sostenible puede inspirar a otras personas.</p>
+      <p class="support-count"><strong id="supportCount">0</strong> personas se han comprometido en esta visita.</p>
+      <button class="button button-light" id="supportButton" type="button">¡Me comprometo!</button>
+      <p id="supportMessage" class="status-message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© <span class="year"></span> Planeta Vivo. Proyecto educativo de advocacy.</p></footer>
+</body>
+</html>
